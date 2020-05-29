@@ -1,5 +1,13 @@
-//Author: Shadab Eqbal
+/*  // //  
+   // //        
+   \\//       
+    \\>>      
+    //\\      
+   //  \\
+Author: Shadab Eqbal 
+Created on:30-05-2020
 //http://codeforces.com/problemset/problem/112/A
+*/
 
 #include <iostream>
 #include <vector>

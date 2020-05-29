@@ -1,6 +1,13 @@
-//Author: Shadab Eqbal
-//https://codeforces.com/problemset/problem/116/A
-
+/*  // //  
+   // //        
+   \\//       
+    \\>>      
+    //\\      
+   //  \\
+Author: Shadab Eqbal 
+Created on:30-05-2020
+Link: https://codeforces.com/problemset/problem/116/A
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -29,16 +36,15 @@ using namespace std;
 
 int main()
 {
-    int n,exit,enter,curr_cap=0,max_cap=0;
-    cin>>n;
-    for(int i=0;i<n;i++){
-        cin>>exit>>enter;
-        curr_cap=curr_cap-exit+enter;
-        if(curr_cap > max_cap)
-            max_cap=curr_cap;
-
-
+    int n, exit, enter, curr_cap = 0, max_cap = 0;
+    cin >> n;
+    for (int i = 0; i < n; i++)
+    {
+        cin >> exit >> enter;
+        curr_cap = curr_cap - exit + enter;
+        if (curr_cap > max_cap)
+            max_cap = curr_cap;
     }
 
-    cout<<max_cap;
+    cout << max_cap;
 }

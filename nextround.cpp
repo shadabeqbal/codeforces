@@ -1,6 +1,13 @@
-//Author: Shadab Eqbal
-//http://codeforces.com/problemset/problem/158/A
-
+/*  // //  
+   // //        
+   \\//       
+    \\>>      
+    //\\      
+   //  \\
+Author: Shadab Eqbal 
+Created on:30-05-2020
+Link: http://codeforces.com/problemset/problem/158/A
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>
