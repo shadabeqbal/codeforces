@@ -1,6 +1,6 @@
-/*  //  //  
-   //  //        
-   \\ //       
+/*  // //  
+   // //        
+   \\//       
     \>>      
     //\\      
    //  \\
@@ -43,7 +43,7 @@ void swap(char *x, char *y)
 }
 int main()
 {
-    int n, i,flag=0;
+    int n, i, flag = 0;
     cin >> n >> i;
     string str;
     cin >> str;
@@ -52,16 +52,17 @@ int main()
     {
         for (int i = 0; i < int(str.length()) - 1; i++)
         {
-            if (temp[i] == 'B' && temp[i + 1] == 'G'){
+            if (temp[i] == 'B' && temp[i + 1] == 'G')
+            {
                 swap(&str[i], &str[i + 1]);
-                flag=1;
+                flag = 1;
             }
         }
-        temp=str;
-        if(flag == 0)
+        temp = str;
+        if (flag == 0)
             break;
-        
-        flag=0;
+
+        flag = 0;
     }
     cout << str;
     return 0;

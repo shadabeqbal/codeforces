@@ -1,9 +1,9 @@
 /*  // //  
    // //        
-   \//       
+   \\//       
     \>>      
-    //\      
-   //  \
+    //\\      
+   //  \\
 Author: Shadab Eqbal 
 Created on: "30-05-2020" 
 Link: https://codeforces.com/problemset/problem/617/A
