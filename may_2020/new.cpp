@@ -2,11 +2,11 @@
    // //        
    \\//       
     \>>      
-    //\\      
+    //\\     
    //  \\
 Author: Shadab Eqbal 
-Created on: 30-05-2020
-Link: http://codeforces.com/problemset/problem/282/A
+Created on: "30-05-2020" 
+Link: 
 */
 
 #include <iostream>
@@ -36,20 +36,5 @@ using namespace std;
 
 int main()
 {
-    int n,x=0;
-    cin>>n;
-    for(int i=0;i<n;i++){
-        string str;
-        cin>>str;
-        if(str == "++X")
-            ++x;
-        else if(str == "--X")
-            --x;
-        else if(str == "X++")
-            x++;
-        else if(str == "X--")
-            x--;
-    }
-
-    cout<<x;
+    return 0;
 }
