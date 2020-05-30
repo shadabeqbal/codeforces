@@ -4,8 +4,8 @@
     \>>      
     //\\     
    //  \\
-Author: Shadab Eqbal 
-Created on: "30-05-2020" 
+Author: Shadab Eqbal
+Created on: "30-05-2020"
 Name: A. Presents
 Link: https://codeforces.com/problemset/problem/136/A
 */
