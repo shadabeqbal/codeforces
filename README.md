@@ -1,4 +1,4 @@
-# Codeforces Problems
+# Codeforces Problemset Solutions
 
 ### Solved By _S.E._
 ```

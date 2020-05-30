@@ -2,13 +2,14 @@
    // //        
    \\//       
     \>>      
-    //\\      
+    //\\     
    //  \\
 Author: Shadab Eqbal 
-Created on:30-05-2020
-Name: A. Domino piling
-Link: http://codeforces.com/problemset/problem/50/A
+Created on: "30-05-2020" 
+Name: A. Presents
+Link: https://codeforces.com/problemset/problem/136/A
 */
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -36,9 +37,17 @@ using namespace std;
 
 int main()
 {
-    int m, n;
-    cin >> m >> n;
-    int ans = floor(m * n / 2);
-    cout << ans;
+    int n, x;
+    cin >> n;
+    int arr[101];
+    for (int i = 1; i <= n; i++)
+    {
+        cin >> x;
+        arr[x] = i;
+    }
+
+    for (int i = 1; i <= n; i++)
+        cout << arr[i] << " ";
+
     return 0;
 }

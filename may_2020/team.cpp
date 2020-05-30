@@ -5,8 +5,9 @@
     //\\      
    //  \\
 Author: Shadab Eqbal 
-Created on:30-05-2020
-//http://codeforces.com/problemset/problem/158/A
+Created on: 30-05-2020
+Name: A. Team
+Link: https://codeforces.com/problemset/problem/231/A
 */
 
 #include <iostream>

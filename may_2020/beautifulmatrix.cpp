@@ -5,7 +5,8 @@
     //\\      
    //  \\
 Author: Shadab Eqbal 
-Created on:30-05-2020
+Created on: 30-05-2020
+Name: A. Beautiful Matrix
 Link: http://codeforces.com/problemset/problem/263/A
 */
 

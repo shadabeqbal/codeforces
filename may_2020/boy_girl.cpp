@@ -5,7 +5,8 @@
     //\\      
    //  \\
 Author: Shadab Eqbal 
-Created on:30-05-2020
+Created on: 30-05-2020
+Name: A. Boy or Girl
 Link: https://codeforces.com/problemset/problem/236/A
 */
 

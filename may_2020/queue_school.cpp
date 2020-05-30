@@ -6,7 +6,8 @@
    //  \\
 Author: Shadab Eqbal 
 Created on: "30-05-2020" 
-Link: 
+Name: B. Queue at the School
+Link: https://codeforces.com/problemset/problem/266/B
 */
 
 #include <iostream>

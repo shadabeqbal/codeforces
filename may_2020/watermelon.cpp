@@ -5,8 +5,9 @@
     //\\      
    //  \\
 Author: Shadab Eqbal 
-Created on:30-05-2020
-//http://codeforces.com/contest/4/problem/A
+Created on: 30-05-2020
+Name: A. Watermelon
+Link: http://codeforces.com/contest/4/problem/A
 */
 
 #include <iostream>

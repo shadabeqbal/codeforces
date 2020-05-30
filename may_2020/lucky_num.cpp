@@ -2,12 +2,12 @@
    // //        
    \\//       
     \>>      
-    //\\      
+    //\\     
    //  \\
 Author: Shadab Eqbal 
-Created on: 30-05-2020
-Name: A. Petya and Strings
-Link: http://codeforces.com/problemset/problem/112/A
+Created on: "30-05-2020"
+Name: A. Nearly Lucky Number
+Link: https://codeforces.com/problemset/problem/110/A
 */
 
 #include <iostream>
@@ -20,7 +20,6 @@ Link: http://codeforces.com/problemset/problem/112/A
 #include <climits>
 #include <string>
 #include <math.h>
-#include<bits/stdc++.h> 
 
 #define MAX 1e18
 #define MIN -1e18
@@ -38,25 +37,20 @@ using namespace std;
 
 int main()
 {
-    string str1;
-    string str2;
-    int flag=0;
-    cin>>str1>>str2;
-    transform(str1.begin(), str1.end(), str1.begin(), ::tolower);
-    transform(str2.begin(), str2.end(), str2.begin(), ::tolower);
-    for(int i=0;i<int(str1.length());i++){
+    int s=0,f=0;
+    ll lucky;
+    cin >> lucky;
+    while (lucky != 0)
+    {
+        if (lucky % 10 == 7)
+            s++;
+        else if(lucky %10 == 4)
+            f++;
         
-        if(str1[i] < str2[i]){
-            flag = -1;
-            break;
-        }
-        if(str1[i] > str2[i]){
-            flag = 1;
-            break;
-        }
-       
+        lucky /= 10;
     }
-
-    cout<<flag;
-
+    if (s+f == 7 || s+f == 4)
+        cout << "YES";
+    else
+        cout << "NO";
 }

@@ -5,7 +5,8 @@
     //\\      
    //  \\
 Author: Shadab Eqbal 
-Created on:30-05-2020
+Created on: 30-05-2020
+Name: A. Tram
 Link: https://codeforces.com/problemset/problem/116/A
 */
 #include <iostream>

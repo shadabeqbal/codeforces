@@ -6,7 +6,8 @@
    //  \\
 Author: Shadab Eqbal 
 Created on:30-05-2020
-//https://codeforces.com/problemset/problem/266/A
+Name: A. Stones on the Table
+Link: https://codeforces.com/problemset/problem/266/A
 */
 
 #include <iostream>

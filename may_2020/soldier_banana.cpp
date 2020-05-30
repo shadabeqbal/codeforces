@@ -5,8 +5,9 @@
     //\\      
    //  \\
 Author: Shadab Eqbal 
-Created on:30-05-2020
-//https://codeforces.com/problemset/problem/546/A
+Created on: 30-05-2020
+Name: A. Soldier and Bananas
+Link: https://codeforces.com/problemset/problem/546/A
 */
 
 #include <iostream>

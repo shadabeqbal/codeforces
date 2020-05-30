@@ -6,6 +6,7 @@
    //  \\
 Author: Shadab Eqbal 
 Created on: 30-05-2020
+Name: A. Bit++
 Link: http://codeforces.com/problemset/problem/282/A
 */
 

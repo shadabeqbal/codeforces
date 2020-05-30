@@ -6,7 +6,8 @@
    //  \\
 Author: Shadab Eqbal 
 Created on:30-05-2020
-Link: http://codeforces.com/problemset/problem/282/A
+Name: A. Helpful Maths
+Link: https://codeforces.com/problemset/problem/339/A
 */
 
 #include <iostream>

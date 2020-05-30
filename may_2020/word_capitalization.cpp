@@ -6,7 +6,8 @@
    //  \\
 Author: Shadab Eqbal 
 Created on:30-05-2020
-//https://codeforces.com/problemset/problem/281/A
+Name: A. Word Capitalization
+Link: https://codeforces.com/problemset/problem/281/A
 */
 
 #include <iostream>

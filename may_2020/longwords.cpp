@@ -6,6 +6,7 @@
    //  \\
 Author: Shadab Eqbal 
 Created on:30-05-2020
+Name: A. Way Too Long Words
 Link: http://codeforces.com/problemset/problem/71/A
 */
 #include <iostream>
@@ -43,13 +44,13 @@ int main()
         cin >> str;
         if (str.length() > 10)
         {
-            temp = str[0] + to_string(str.length()-2) + str[str.length() - 1];
+            temp = str[0] + to_string(str.length() - 2) + str[str.length() - 1];
         }
         else
         {
             temp = str;
         }
-        cout << temp<<"\n";
+        cout << temp << "\n";
         temp = "";
     }
 

@@ -2,12 +2,12 @@
    // //        
    \\//       
     \>>      
-    //\\      
+    //\\     
    //  \\
 Author: Shadab Eqbal 
-Created on: 30-05-2020
-Name: A. Petya and Strings
-Link: http://codeforces.com/problemset/problem/112/A
+Created on: "30-05-2020" 
+Name: A. Beautiful Year
+Link: https://codeforces.com/problemset/problem/271/A
 */
 
 #include <iostream>
@@ -20,7 +20,6 @@ Link: http://codeforces.com/problemset/problem/112/A
 #include <climits>
 #include <string>
 #include <math.h>
-#include<bits/stdc++.h> 
 
 #define MAX 1e18
 #define MIN -1e18
@@ -36,27 +35,38 @@ Link: http://codeforces.com/problemset/problem/112/A
 
 using namespace std;
 
+
+int check_unique(int n)
+{
+    vi vec(10);
+    int flag=0;
+    while(n!=0){
+        if(vec[n%10] == 1)
+        {
+            flag=1;
+            break;
+        }else
+        {
+            vec[n%10]=1;
+        }
+        n/=10;
+    }
+    
+    if(flag == 1)
+        return 1;
+    else
+        return 0;
+}
 int main()
 {
-    string str1;
-    string str2;
-    int flag=0;
-    cin>>str1>>str2;
-    transform(str1.begin(), str1.end(), str1.begin(), ::tolower);
-    transform(str2.begin(), str2.end(), str2.begin(), ::tolower);
-    for(int i=0;i<int(str1.length());i++){
-        
-        if(str1[i] < str2[i]){
-            flag = -1;
+    int n;
+    cin>>n;
+    for(int i=n+1;i<=10000;i++){
+        if(check_unique(i) == 0){
+            cout<<i;
             break;
         }
-        if(str1[i] > str2[i]){
-            flag = 1;
-            break;
-        }
-       
     }
 
-    cout<<flag;
-
+    return 0;
 }
