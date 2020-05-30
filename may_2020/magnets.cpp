@@ -6,7 +6,8 @@
    //  \\
 Author: Shadab Eqbal 
 Created on: "30-05-2020" 
-Link: 
+Name: A. Magnets
+Link: https://codeforces.com/problemset/problem/344/A
 */
 
 #include <iostream>
@@ -36,5 +37,21 @@ using namespace std;
 
 int main()
 {
+    int n,g=0;
+    cin>>n;
+    string str;
+    string temp="  ";
+    for(int i=0;i<n;i++){
+        cin>>str;
+        if((str == "01" && 
+        temp.substr(temp.length()-2,temp.length()-1) == "10") || 
+        (str == "10" && 
+        temp.substr(temp.length()-2,temp.length()-1) == "01"))
+            g++;
+        
+        temp+=str;
+
+    }
+    cout<<g+1;
     return 0;
 }
