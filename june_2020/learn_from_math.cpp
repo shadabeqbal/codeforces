@@ -5,9 +5,15 @@
     //\\     
    //  \\
 Author: Shadab Eqbal 
+<<<<<<< HEAD
 Created on: "12-06-2020" 
 Name: A. Design Tutorial: Learn from Math
 Link: http://codeforces.com/problemset/problem/472/A
+=======
+Created on: "05-06-2020" 
+Name: A. Design Tutorial: Learn from Math
+Link: https://codeforces.com/problemset/problem/472/A
+>>>>>>> d613de73a84f358cdc73c8b1353a45ab551a2648
 */
 
 #include <iostream>
@@ -26,6 +32,7 @@ Link: http://codeforces.com/problemset/problem/472/A
 #define MAX 1e18
 #define MIN -1e18
 #define MOD 1000000007
+<<<<<<< HEAD
 #define PI 3.141592653589793238
 #define pb push_back
 #define mp make_pair
@@ -68,5 +75,21 @@ int main()
     ll n;
     cin>>n;
     foo(n,floor(n/2),(n-floor(n/2)));
+=======
+#define PB push_back
+#define MP make_pair
+#define vi vector<int>
+#define vii vector<vector<int>>
+#define pi pair<int, int>
+#define vpi vector<pi>
+#define ll long long int
+#define vll vector<ll>
+
+using namespace std;
+
+int main()
+{
+    
+>>>>>>> d613de73a84f358cdc73c8b1353a45ab551a2648
     return 0;
 }
