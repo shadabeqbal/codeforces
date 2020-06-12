@@ -6,8 +6,8 @@
    //  \\
 Author: Shadab Eqbal 
 Created on: "12-06-2020" 
-Name: A. Design Tutorial: Learn from Math
-Link: http://codeforces.com/problemset/problem/472/A
+Name: A. Vasya the Hipster
+Link: http://codeforces.com/problemset/problem/581/A
 */
 
 #include <iostream>
@@ -42,31 +42,17 @@ Link: http://codeforces.com/problemset/problem/472/A
 #define search(x, y) binary_search(x.begin(), x.end(), y)
 
 using namespace std;
-int isPrime(ll n){
-    for(ll i=2;i<=n/2;i++){
-        if(n%i == 0){
-            return 1;
-        }
-    }
 
-    return 0;
-}
-
-void foo(ll n,ll one,ll two){
-    
-    if(isPrime(one) == 1 && isPrime(two) == 1){
-        cout<<one<<" "<<two;
-        return ;
-    }else{
-        foo(n,--one,++two);
-    }
-}
 int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    ll n;
-    cin>>n;
-    foo(n,floor(n/2),(n-floor(n/2)));
+    int a,b;
+    cin>>a>>b;
+    
+    int x=min(a,b);
+    int y=(max(a,b)-x)/2;
+
+    cout<<x<<" "<<y;
     return 0;
 }

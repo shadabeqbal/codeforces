@@ -6,8 +6,8 @@
    //  \\
 Author: Shadab Eqbal 
 Created on: "12-06-2020" 
-Name: A. Design Tutorial: Learn from Math
-Link: http://codeforces.com/problemset/problem/472/A
+Name: Hit the Lottery
+Link: http://codeforces.com/problemset/problem/996/A
 */
 
 #include <iostream>
@@ -42,31 +42,28 @@ Link: http://codeforces.com/problemset/problem/472/A
 #define search(x, y) binary_search(x.begin(), x.end(), y)
 
 using namespace std;
-int isPrime(ll n){
-    for(ll i=2;i<=n/2;i++){
-        if(n%i == 0){
-            return 1;
-        }
-    }
 
-    return 0;
-}
-
-void foo(ll n,ll one,ll two){
-    
-    if(isPrime(one) == 1 && isPrime(two) == 1){
-        cout<<one<<" "<<two;
-        return ;
-    }else{
-        foo(n,--one,++two);
-    }
-}
 int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    ll n;
+    ll n,cnt=0;
     cin>>n;
-    foo(n,floor(n/2),(n-floor(n/2)));
+    while(n>0){
+        if(n%100 == 0)
+            n=n-100;
+        else if(n%20 == 0)
+            n=n-20;
+        else if(n%10 == 0)
+            n=n-10;
+        else if(n%5 == 0)
+            n=n-5;
+        else
+            n--;
+
+        cnt++;
+    }
+
+    cout<<cnt;
     return 0;
 }
