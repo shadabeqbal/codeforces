@@ -6,8 +6,8 @@
    //  \\
 Author: Shadab Eqbal 
 Created on: "15-06-2020" 
-Name: A. Choosing Teams
-Link: http://codeforces.com/problemset/problem/432/A
+Name: A. Phoenix and Balance
+Link: http://codeforces.com/problemset/problem/1348/A
 */
 
 #include <iostream>
@@ -22,6 +22,7 @@ Link: http://codeforces.com/problemset/problem/432/A
 #include <string>
 #include <math.h>
 #include <iomanip>
+#include <bits/stdc++.h>
 
 #define MAX 1e18
 #define MIN -1e18
@@ -47,16 +48,24 @@ int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    int n, k, x;
-    int cnt=0;
-    cin >> n >> k;
-    while (n--)
-    {
-        cin >> x;
-        if(x+k <= 5)
-            cnt++;
-    }
+    int t;
+    cin >> t;
 
-    cout<<cnt/3;
+    while (t--)
+    {
+        int N;
+        cin >> N;
+        
+        int sum1 = (1 << N), sum2 = 0;
+        
+        for (int i = 1; i < N / 2; i++)
+            sum1 += (1 << i);
+        
+        for (int i = N / 2; i < N; i++)
+            sum2 += (1 << i);
+        
+        cout << sum1 - sum2 << endl;
+    }
+    
     return 0;
 }

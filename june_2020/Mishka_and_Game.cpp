@@ -6,8 +6,8 @@
    //  \\
 Author: Shadab Eqbal 
 Created on: "15-06-2020" 
-Name: A. Choosing Teams
-Link: http://codeforces.com/problemset/problem/432/A
+Name: A. Mishka and Game
+Link: http://codeforces.com/problemset/problem/703/A
 */
 
 #include <iostream>
@@ -47,16 +47,25 @@ int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    int n, k, x;
-    int cnt=0;
-    cin >> n >> k;
-    while (n--)
-    {
-        cin >> x;
-        if(x+k <= 5)
-            cnt++;
+    int n,x,y;
+    cin>>n;
+    int m=0,c=0;
+    
+    while(n--){
+        cin>>x>>y;
+        if(x>y)
+            m++;
+        if(y>x)
+            c++;
+        
     }
+    
+    if(m>c)
+        cout<<"Mishka\n";
+    else if(c>m)
+        cout<<"Chris\n";
+    else
+        cout<<"Friendship is magic!^^\n";
 
-    cout<<cnt/3;
     return 0;
 }
