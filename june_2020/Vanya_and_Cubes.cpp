@@ -6,7 +6,7 @@
    //  \\
 Author: Shadab Eqbal 
 Created on: "23-06-2020" 
-Name: A. Vanya and Cubes.
+Name: A. Vanya and Cubes
 Link: https://codeforces.com/problemset/problem/492/A
 */
 
