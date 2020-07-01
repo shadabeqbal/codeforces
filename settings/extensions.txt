@@ -1,0 +1,12 @@
+VSCode extensions:
+===================
+
+1.Beautify (HookyQR)
+2.Code Runner (Jun Han)
+3.Github (KnisterPeter)
+4.git-autoconfig (shyykoserhiy)
+5.Night Owl (sarah.drasner)
+6.Snippet Generator (fiore)
+7.Python (Microsoft)
+8.C++ Intellisense (austin)
+9.C/C++ (Microsoft)

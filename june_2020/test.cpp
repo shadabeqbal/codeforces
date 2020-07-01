@@ -54,7 +54,6 @@ void addedge(vvi &vec, int x, int y)
     vec[x].pb(y);
     vec[y].pb(x);
 }
-
 // void printGraph(vvi vec,int V){
 //     for(int v=0;v<V;v++){
 //         for(auto x : vec[v])
@@ -74,14 +73,15 @@ void printGraph(vvi vec, int V)
         cout << "\n";
     }
 }
+
 void bfs(vvi &vec, int v, vector<int> &found)
 {
-    queue<int> q;
-    if (!found[v])
-    {
-        cout << v;
-        found[v] = 1;
-    }
+    static queue<int> q;
+    // if (!found[v])
+    // {
+    //     cout << v;
+    //     found[v] = 1;
+    // }
     for (auto x = vec[v].begin(); x != vec[v].end(); ++x)
     {
         
@@ -90,11 +90,12 @@ void bfs(vvi &vec, int v, vector<int> &found)
             q.push(*x);
         }
     }
+    int temp = q.front();
+
     if (!q.empty())
     {
-        
-        bfs(vec, q.front(), found);
         q.pop();
+        bfs(vec, temp, found);
     }
 }
 void dfs(vvi &vec, int v, vector<int> &found)

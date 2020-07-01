@@ -1,0 +1,7 @@
+{
+	"cpp": {
+		"prefix": "cpp",
+		"body": "/*  // //  \n   // //        \n   \\\\\\//       \n    \\\\>>      \n    //\\\\\\    \n   //  \\\\\\\nAuthor: Shadab Eqbal \nCreated on: \"$CURRENT_DATE-$CURRENT_MONTH-$CURRENT_YEAR\" \nName: \nLink: \n*/\n\n#include <bits/stdc++.h>\n\nusing namespace std;\n\n#define MAX 1e18\n#define MIN -1e18\n#define MOD 1000000007\n#define PI 3.141592653589793238\n\n#define pb push_back\n#define mp make_pair\n#define ll long long int\n\n#define all(x) (x.begin(), x.end())\n\n#define clr(x) memset(&x, 0, sizeof(x))\n\n#define sort(x) sort(all(x))\n#define search(x, y) binary_search(all(x), y)\n\n#define fr(x, n) for (ll i = x; i < n; i++)\n#define frk(x, n, k) for (ll i = x; i < n; i += k)\n#define frit(x) for (auto i = x.begin(); i != x.end(); ++i)\n\ntypedef pair<int, int> pi;\ntypedef vector<pi> vpi;\ntypedef vector<vpi> vvpi;\ntypedef vector<int> vi;\ntypedef vector<vi> vvi;\ntypedef pair<ll, ll> pll;\ntypedef vector<pll> vpl;\ntypedef vector<ll> vll;\ntypedef vector<vll> vvll;\n\nint main()\n{\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    \n    return 0;\n}",
+		"description": "cpp-snippet"
+	}
+}
